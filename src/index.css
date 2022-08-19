@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+nav{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background: black;
+  color: white;
+}
+
