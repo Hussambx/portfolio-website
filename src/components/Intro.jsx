@@ -15,8 +15,9 @@ export default function Intro(){
    
     function typeWriter() {
         if (typingeffect.length < txt.length) {
+            i++;
             setTyping(prevstate=> prevstate+txt.charAt(i))
-          i++;
+         
           setTimeout(typeWriter, speed); 
         }
       }
