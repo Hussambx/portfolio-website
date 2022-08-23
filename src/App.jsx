@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import Navbar from './components/Navbar';
 import Intro from './components/Intro';
 import About from './components/About';
+import Projects from './components/Projects'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -11,6 +12,11 @@ function App() {
    <Navbar/>
    <Intro/>
    <About/>
+   <h2>Projects:</h2>
+   <div id="projectlist">
+   <Projects/>
+   </div>
+  
    </>
   )
 }
