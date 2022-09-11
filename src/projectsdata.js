@@ -2,9 +2,9 @@
 export default [
 {
 id:1,
-name:"Weather App",
-prev:'https://i.ibb.co/pd2x5ZM/weatherapp.png',
-repo:'https://github.com/ToxicTerror21/weatherapp'
+name:"Contacts App",
+prev:'https://i.ibb.co/yWbhcnN/contactsimg.png',
+repo:'https://github.com/Hussambx/ContactsApp'
 
 },{
 id:2,
@@ -12,9 +12,16 @@ name:"Trivia Game",
 prev:'https://i.ibb.co/SvzZ9mJ/quiz.png',
 repo:'https://github.com/ToxicTerror21/trivia-game'
 
-
-
+},{
+    id:3,
+    name:"Weather App",
+    prev:'https://i.ibb.co/pd2x5ZM/weatherapp.png',
+    repo:'https://github.com/ToxicTerror21/weatherapp'    
+},{
+    id:4,
+    name:"Portfilo Website",
+    prev:"https://i.ibb.co/TH9HBhf/samplepic.png",
+    repo:'h'
 }
-
 
 ]

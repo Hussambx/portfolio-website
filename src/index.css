@@ -8,8 +8,15 @@ mark{
   background-color: transparent;
 }
 
+
+html {
+  scroll-behavior: smooth;
+ }
+
+
 body{
   background-color:  lightblue;
+  padding-bottom: 40px;
 }
 nav{
   position: relative;
@@ -18,7 +25,7 @@ nav{
   display: flex;
   justify-content: center;
   gap: 20px;
-  background: black;
+  background: rgb(47, 58, 65);
   color: white;
   font-size: 1.2vmax;
 }
@@ -63,7 +70,7 @@ h3,h4{text-align: left;
   height: 400px;
 }
 #content{
-  padding-top: 20px;
+  padding-top: 5px;
 }
 #second>div>img{
   object-fit: cover;
@@ -73,6 +80,26 @@ h3,h4{text-align: left;
 .linkedin{
   margin-top: 10px;
   background-color: #4D5B9E;
+  border-style: none;
+  width: 100%;
+  border-radius: 15px;
+  height:30px;
+  color:white;
+  font-size: medium;
+  
+}
+
+.linkedin:hover{
+  background-color:#313b6b; 
+}
+
+.viewgithub:hover{
+  background-color: #131318;
+}
+
+.viewgithub{
+  margin-top: 10px;
+  background-color: #22232b;
   border-style: none;
   width: 100%;
   border-radius: 15px;
@@ -99,6 +126,9 @@ h3,h4{text-align: left;
   background: grey;
   border-radius: 9%;
   overflow:hidden;
+  border-style: solid ;
+  border-color: #3b3e52;
+  border-radius: thin;
 }
 
 #projectx>section{
@@ -109,7 +139,7 @@ overflow:hidden;
 h5{
   font-size: x-large;
   color: white;
-  background-color: rgb(255, 123, 0);
+  background-color: rgb(47, 58, 65);
   padding: 4px;
 }
 
@@ -119,7 +149,7 @@ h5{
 }
 
 .github{
-  background-color: rgb(255, 123, 0);
+  background-color: rgb(47, 58, 65);
   border-style: none;
   width: 100%;
   height:50px;
@@ -136,7 +166,7 @@ h5{
 }
 
 .viewongithub{
-  background: #4D5B9E;
+  background: rgb(74, 92, 104);
   font-size: large;
   border-radius: 12px;
   padding: 10px;
@@ -147,7 +177,7 @@ h5{
 }
 
 .projecttitle{
-  padding-top: 5px;
+  padding-top: 40px;
   background: lightblue;
   font-size: 3.5vmax;
 }
@@ -171,4 +201,9 @@ h5{
 
 #toolbox>h2{
   font-size: xx-large;
+}
+
+#content>a{
+  text-align: left;
+  color:white;
 }
