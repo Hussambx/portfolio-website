@@ -5,7 +5,7 @@ import Intro from './components/Intro';
 import About from './components/About';
 import Projects from './components/Projects'
 import data from "./projectsdata";
-
+import Toolbox from './components/Toolbox';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -26,11 +26,12 @@ function App() {
    <Navbar/>
    <Intro/>
    <About/>
-   <h2>Projects:</h2>
+   <h2 className='projecttitle'>Projects:</h2>
    <div id="projectlist">
    {projectdetails}
    </div>
-  
+   <a href='https://github.com/Hussambx' className='viewongithub'>View More On Github</a>
+   <Toolbox/>
    </>
   )
 }
