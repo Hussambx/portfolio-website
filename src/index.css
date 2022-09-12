@@ -192,8 +192,8 @@ h5{
   padding-top: 20px;
   background: lightblue;
   display: flex;
-  justify-content: center;
-  gap:120px ;
+  justify-content: space-evenly;
+  gap:90px ;
   flex-wrap: wrap;
   flex-direction: row;
   margin-bottom: 50px

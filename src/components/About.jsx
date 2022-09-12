@@ -12,7 +12,7 @@ export default function About(){
             <div id="content">
             <h3>Hussam Baradei</h3>
             <h4>hussam.baradei@yahoo.com</h4>
-            <a href='www.google.ca' target="_blank"><h4>View Resume</h4></a>
+            <a href='https://drive.google.com/drive/folders/1QLBi5Xwqfq5fndMmuKvVJYlcsqORQEIn?usp=sharing' target="_blank"><h4>View Resume</h4></a>
             <h3>About me:</h3>
         <h4>Hi, my name is Hussam Baradei I'm currently a second year student, student studying Computer Science at York University</h4>
         <h3>Interests:</h3>
@@ -20,7 +20,7 @@ export default function About(){
        
         
         <a href="https://www.linkedin.com/in/hussam-baradei-2b671423b/" target="_blank"><button className="linkedin">LinkedIn</button></a>
-        <a href="https://github.com/Hussambx"><button className="viewgithub" target="_blank" >Github</button></a>
+        <a href="https://github.com/Hussambx" target="_blank"><button className="viewgithub" >Github</button></a>
             </div>
 
    

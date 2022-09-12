@@ -11,6 +11,7 @@ export default function Toolbox(){
         <h2>CSS</h2>
         <h2>React</h2>
         <h2>Node</h2>
+        <h2>Python</h2>
         <h2>Mongo DB</h2>
         <h2>Express</h2>
         <h2>Lua</h2>

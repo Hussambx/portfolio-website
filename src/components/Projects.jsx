@@ -10,7 +10,7 @@ export default function Project(props){
             <section>
             <img className="img2" src={props.prev}/>
             </section>
-            <a href={props.repo}><button className="github">View On Github</button></a>
+            <a href={props.repo} target="_blank"><button className="github">View On Github</button></a>
         </div>
     </>
 )

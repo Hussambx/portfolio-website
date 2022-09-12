@@ -30,7 +30,7 @@ function App() {
    <div id="projectlist">
    {projectdetails}
    </div>
-   <a href='https://github.com/Hussambx' className='viewongithub'>View More On Github</a>
+   <a href='https://github.com/Hussambx' className='viewongithub' target="_blank">View More On Github</a>
    <Toolbox/>
    <h2>And More To Come..</h2>
    </>

@@ -4,7 +4,7 @@ import React, { useState } from "react";
 export default function Intro(){
     const [typingeffect, setTyping] = useState("") 
     let i = -1;
-    let txt = 'Welcome to my portfalio website!'; /* The text */
+    let txt = 'Welcome to my portfolio website!'; /* The text */
     let speed = 100;
     let a= false;
     
