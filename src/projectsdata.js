@@ -30,7 +30,7 @@ repo:'https://github.com/Hussambx/trivia-game'
 },{
     id:6,
     name:"Roblox Game",
-    prev:"https://i.ibb.co/VBStY9x/Hussam-Attack.png",
+    prev:"https://i.ibb.co/cTF1h3w/Hussam-Attack.png",
     repo:'https://github.com/Hussambx/robloxgame'
 }
 
