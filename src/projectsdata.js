@@ -19,9 +19,19 @@ repo:'https://github.com/Hussambx/trivia-game'
     repo:'https://github.com/Hussambx/weatherapp'    
 },{
     id:4,
-    name:"Portfilo Website",
+    name:"Portfolio Website",
     prev:"https://i.ibb.co/TH9HBhf/samplepic.png",
     repo:'https://github.com/Hussambx/portfolio-website'
+},{
+    id:5,
+    name:"Mobile Game",
+    prev:"https://i.ibb.co/LdbsD55/pics.png" ,
+    repo:'https://github.com/Hussambx/iosgame'
+},{
+    id:6,
+    name:"Roblox Game",
+    prev:"https://i.ibb.co/VBStY9x/Hussam-Attack.png",
+    repo:'https://github.com/Hussambx/robloxgame'
 }
 
 ]

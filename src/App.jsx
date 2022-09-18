@@ -33,6 +33,7 @@ function App() {
    <a href='https://github.com/Hussambx' className='viewongithub' target="_blank">View More On Github</a>
    <Toolbox/>
    <h2>And More To Come..</h2>
+   <h6>@Hussam Baradei</h6>
    </>
   )
 }

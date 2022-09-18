@@ -146,6 +146,7 @@ h5{
 .img2{
   width: 100%;
   height:100%;
+  
 }
 
 .github{
@@ -174,6 +175,10 @@ h5{
   margin-bottom: 50px;
   color:white;
   text-decoration:none;
+}
+
+.viewongithub:hover{
+  background: rgb(52, 62, 70);;
 }
 
 .projecttitle{
