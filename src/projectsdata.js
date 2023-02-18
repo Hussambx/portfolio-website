@@ -1,6 +1,11 @@
 //This file will contain the data required for the projects list and be passed in a prop element to projects.jsx 
 export default [
 {
+id:0,
+name:"Cookie Monster",
+prev:'https://i.ibb.co/dgPvQ0z/other.png',
+repo:'https://github.com/Hussambx/CookieMonster'
+},{
 id:1,
 name:"Contacts App",
 prev:'https://i.ibb.co/yWbhcnN/contactsimg.png',
