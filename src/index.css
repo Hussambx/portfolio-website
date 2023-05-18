@@ -96,6 +96,9 @@ h3,h4{text-align: left;
 .viewgithub:hover{
   background-color: #131318;
 }
+.viewig:hover{
+  background-color: #8800e2;
+}
 
 .viewgithub{
   margin-top: 10px;
@@ -109,6 +112,16 @@ h3,h4{text-align: left;
   
 }
 
+.viewig{
+  margin-top: 10px;
+  background-color: #9128d6;
+  border-style: none;
+  width: 100%;
+  border-radius: 15px;
+  height:30px;
+  color:white;
+  font-size: medium;
+}
 #projectlist{
   display: flex;
   flex-wrap: wrap;
@@ -196,7 +209,7 @@ h5{
 #toolbox{
   padding-top: 20px;
   background: lightblue;
-  display: flex;
+  display: block;
   justify-content: space-evenly;
   gap:90px ;
   flex-wrap: wrap;
@@ -211,4 +224,9 @@ h5{
 #content>a{
   text-align: left;
   color:white;
+}
+
+#toolboxtext{
+  color: black;
+  text-align: center;
 }
