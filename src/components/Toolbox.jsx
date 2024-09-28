@@ -11,10 +11,9 @@ export default function Toolbox(){
             Frameworks: React, Node.js, JUnit, AeroGameFramework
             </h3>
             <h3 id="toolboxtext">
-            Developer Tools: Git, Postmon, Mongo DB, Arduino, AWS, VS Code, FlyiO, IntelliJ, Eclipse, Unity, Roblox Studio
-            </h3>
+            Developer Tools: Git, Postman, Mongo DB, Arduino, AWS, VS Code, PostgresSQL, Eclipse, Unity, Roblox Studio            </h3>
             <h3 id="toolboxtext">
-            Libraries: React Router, Express, Mongoose
+            Libraries: React Router, Express, Axios, Mongoose, Puppteer, LLaMA
             </h3>
         </div>
         

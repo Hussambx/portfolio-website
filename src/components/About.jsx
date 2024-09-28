@@ -14,7 +14,7 @@ export default function About(){
             <h4>hussam.baradei@yahoo.com</h4>
             <a href='https://drive.google.com/drive/folders/1QLBi5Xwqfq5fndMmuKvVJYlcsqORQEIn?usp=sharing' target="_blank"><h4>View Resume</h4></a>
             <h3>About me:</h3>
-        <h4>Hi, my name is Hussam Baradei I'm currently a third year student, studying Computer Science at York University</h4>
+        <h4>Hi, my name is Hussam Baradei I'm currently a forth year student, studying Computer Science at York University</h4>
         <h3>Interests:</h3>
         <h4>Outside of my field of study I'm really interested in traveling. So far I’ve been to 2 out of the 7 wonders of the world.  My goal is to travel to all 7 throughout my lifetime. I also like to go out of my comfort zone and try new things, whether it's sky diving or something more laid back I'll give it a go</h4>
        
