@@ -3,7 +3,7 @@ export default [
 {
  id:0,
  name:"AutoAvenue",
-prev:'../assets/autoavenue2.png',
+prev:'https://i.ibb.co/GssZncz/autoavenue2.png',
 repo:'https://github.com/Hussambx/Auto_Avenue'
 },{
 id:1,
