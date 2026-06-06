@@ -1,22 +1,46 @@
 import React from "react";
 
+const skillGroups = [
+    {
+        title: "Languages",
+        items: ["Python", "JavaScript", "TypeScript", "Java", "C/C#", "Bash", "HTML/CSS"]
+    },
+    {
+        title: "Frameworks",
+        items: ["React", "Node.js", "REST APIs", "Playwright", "Postman", "Linux"]
+    },
+    {
+        title: "Cloud and DevOps",
+        items: ["AWS", "DigitalOcean", "Docker", "Kubernetes", "CI/CD", "Git", "PostgreSQL", "MongoDB"]
+    },
+    {
+        title: "Data and AI",
+        items: ["LLaMA", "Gemini", "ChatGPT", "Whisper", "LangChain", "RAG", "AssemblyAI"]
+    },
+    {
+        title: "Certifications",
+        items: ["AWS Solutions Architect Associate - In Progress"]
+    }
+];
+
 export default function Toolbox(){
     return(
-        <>
-        <h2 className="toolboxtitle">Technical Skills:</h2>
-        <div id="toolbox">
-            <h3 id="toolboxtext">Languages: Java, Python, C/C++, Bash, JavaScript, HTML/CSS, Lua, Risc-V 
-            </h3>
-            <h3 id="toolboxtext">
-            Frameworks: React, Node.js, JUnit, AeroGameFramework
-            </h3>
-            <h3 id="toolboxtext">
-            Developer Tools: Git, Postman, Mongo DB, Arduino, AWS, VS Code, PostgresSQL, Eclipse, Unity, Roblox Studio            </h3>
-            <h3 id="toolboxtext">
-            Libraries: React Router, Express, Axios, Mongoose, Puppteer, LLaMA
-            </h3>
-        </div>
-        
-        </>
+        <section id="skills" className="section skills-section">
+            <div className="section-header">
+                <p className="eyebrow">Technical skills</p>
+                <h2>Tools I use to ship projects</h2>
+                <p>Grouped by the parts of the stack I work with most often.</p>
+            </div>
+            <div id="toolbox" className="skills-grid">
+                {skillGroups.map(group => (
+                    <article className="skill-card" key={group.title}>
+                        <h3>{group.title}</h3>
+                        <div className="skill-list">
+                            {group.items.map(item => <span key={item}>{item}</span>)}
+                        </div>
+                    </article>
+                ))}
+            </div>
+        </section>
     )
 }

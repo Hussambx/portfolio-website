@@ -1,34 +1,18 @@
 import React from "react";
 
-
 export default function Navbar(){
-
-
-    function scrollhome(){
-        document.getElementById('navbox').scrollIntoView();
-    }
-    function scrollabout(){
-        document.getElementById('second').scrollIntoView();
-    }
-    function scrollprojects(){
-        document.getElementById('projectlist').scrollIntoView();
-    }
-
-
-
     return(
-        <div id="navbox">
-        <nav>
-            <h2 id="special">Hussam Baradei</h2>
-            <h2 onClick={scrollhome}>Home</h2>
-            <h2 onClick={scrollabout}>About</h2>
-            <h2 onClick={scrollprojects}>Projects      </h2>
-
-        </nav>
-        
+        <div id="navbox" className="nav-shell">
+            <nav aria-label="Primary navigation">
+                <a id="special" href="#home">Hussam Baradei</a>
+                <div className="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
         </div>
-
     )
-
-
 }
